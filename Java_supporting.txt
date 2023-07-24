@@ -1,0 +1,61 @@
+# Manners and Rule to write java codes
+----------------------------------------------------------------------------
+
+ • File name and class name alway try to write similar
+
+ • Name convention-->
+   i)  Class name always written in PascalCaseConvention
+   ii) Function name always written in camelCaseConvention
+
+ • Comments written in only one types-->
+   i) Single line comments using ' // ' 
+   multi line comments are not declare with differently, use // to every line 
+
+ • package convention-->
+   If you devlope a project for any company or institue or any others then you are able 
+   to use those company name in your code. This is optional.
+   write ' package {company_name}; ' in the top of your code
+   i)    Make sure company name is not similar to any syntex of java
+   ii)   Company name is not contain any type of link
+   iii)  Not start with any number
+
+ • Variable name convention-->
+   i)    Not a keyword
+   ii)   Never start with numbers
+   iii)  Case sensative 
+   iv)   Never start with some special chars and Containing(+,-,*,~,etc)
+   v)    Maximum digit length is 32
+   vi)   Try to unique
+   vii)  White space not allow use camelCase or PascalCase
+
+   i)    Start with chars or some special chars($,&,etc)
+   ii)   Containing numbers except 1st digit
+   iii)  Static type
+
+
+# Anatomy of a java program
+----------------------------------------------------------------------------
+
+|--> Documentation Section    (suggested)
+|--> Package Statement        (optional)
+|--> Import Statement         (optional)
+|--> Interface Statement      (optional)
+|--> Class Definitions        (optional)
+|--> Main Class               (essential)
+
+
+# Datatypes in java program
+----------------------------------------------------------------------------
+
+   |-->Primative Data types                     |-->NonPrimative Data type
+         |
+         |-->Int
+         |-->float
+         |-->long
+         |-->char
+         |-->double
+         |-->bool
+         |-->byte
+         |-->short
+
+ 
